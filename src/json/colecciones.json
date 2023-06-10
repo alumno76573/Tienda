@@ -1,0 +1,24 @@
+{
+    "colecciones": [
+        {
+            "id": 1,
+            "nombre": "Primavera",
+            "imagen": "https://a-static.besthdwallpaper.com/colorful-spring-garden-wallpaper-2560x1920-27875_27.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "Verano",
+            "imagen": "https://www.10wallpaper.com/wallpaper/2560x1920/1712/Vietnam_summer_Halong_Bay_rocky_ocean_4K_Ultra_HD_2560x1920.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Otoño",
+            "imagen": "https://s1.1zoom.me/big7/389/Scenery_Autumn_Mountains_438813.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Invierno",
+            "imagen": "https://s1.1zoom.me/big7/175/Seasons_Winter_Mountains_466874.jpg"
+        }
+    ]
+}

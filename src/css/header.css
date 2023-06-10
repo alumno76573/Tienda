@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #B3798F;
+}
+
+.logo {
+  height: 7.5rem;
+  width: auto;
+}
+
+.slogan {
+  font-family: 'Great Vibes', cursive;
+  color: white;
+  font-size: x-large;
+}
+
+.lista-iconos {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.icon {
+  color: white;
+  font-size: xx-large;
+  cursor: pointer;
+  position: relative;
+  transition: ease-in-out 0.2s;
+}
+
+.icon:hover {
+  color: #FFC8DD;
+}
+
+.cantidad-items {
+  position: absolute;
+  top: 3.5rem;
+  right: 15.2rem;
+  background-color: #FFC8DD;
+  color: white;
+  border: 1px solid #B3798F;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+}
+
+.carrito {
+  position: absolute;
+  top: 6rem;
+  right: 0;
+  background-color: #FFC8DD;
+  border: 1px solid #B3798F;
+  padding: 10px;
+  width: 250px;
+}
+
+.lista-items-carrito {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.precio-total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.invisible {
+  display: none;
+}

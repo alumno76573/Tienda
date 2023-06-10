@@ -1,0 +1,31 @@
+.footer{
+    background-color: #82AAB3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(93, 92, 92);
+}
+.comunicacion{
+    max-width: 25vw;
+}
+ul, li{
+    list-style: none;
+}
+.lista-iconos{
+    display: flex;
+}
+.redIcono{
+    font-size: xx-large;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.redIcono:hover{
+    color: #FFC8DD;
+}
+.enlaceFooter{
+    transition: 0.2s ease-in-out;
+}
+.enlaceFooter:hover{
+    color: #FFC8DD;
+}

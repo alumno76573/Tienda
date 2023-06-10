@@ -1,0 +1,17 @@
+.item-carrito {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.item-carrito .nombre-producto {
+  font-weight: bold;
+}
+.img_producto_carrito {
+  width: 5rem;
+}
+.divisor {
+  height: 1px;
+  width: 100%;
+  background-color: #D99ABC;
+}

@@ -1,0 +1,32 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "carrito": {
+                "productos": [],
+                "total": 0
+            }
+        },
+        {
+            "id": 2,
+            "carrito": {
+                "productos": [],
+                "total": 0
+            }
+        },
+        {
+            "id": 3,
+            "carrito": {
+                "productos": [],
+                "total": 0
+            }
+        },
+        {
+            "id": 4,
+            "carrito": {
+                "productos": [],
+                "total": 0
+            }
+        }
+    ]
+}

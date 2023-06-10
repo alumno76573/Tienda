@@ -1,0 +1,83 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgfront{
+    width: 25rem;
+    height: auto;
+    border-radius: 2rem;
+}
+.imgback{
+    width: 12rem;
+    height: auto;
+    border-radius: 2rem;
+}
+.nombre-producto{
+    margin: 0;
+}
+.listaProps{
+    list-style: none;
+}
+.botonMixto, .info-precio-boton{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+}
+.precio, .contenedorAñadirCarrito{
+    margin: 0;
+}
+.añadirAlCarro{
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    color: #D99ABC;
+    border-color: #D99ABC;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.añadirAlCarro:hover{
+    background-color: #D99ABC;
+    color: white;
+    border-color: white;
+}
+.nombrePrecio{
+    display: flex;
+    gap: 2rem;
+}
+.agotado{
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    color: red;
+    margin-top: 1rem;
+}
+.front{
+    transition: 200ms;
+    backface-visibility: hidden;
+}
+.back{
+    width: 25rem;
+    height: 25rem;
+    background-color: #EED0F2;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: 200ms;
+    transform: perspective(600px) rotateY(-180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+main:hover > .front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+main:hover > .back {
+    transform: perspective(600px) rotateY(0deg);
+}

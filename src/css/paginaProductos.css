@@ -1,0 +1,11 @@
+.lista_total_productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+.titulo{
+    text-align: center;
+    width: 100%;
+}
