@@ -31,7 +31,8 @@ class Home extends Component {
           idUsuario: idUsuario
         }
       }, () => {
-        console.log("EL valor de usuarioAutenticado es " + this.state.usuarioAutenticado.autenticado + "El valor del usuario es " + this.state.usuarioAutenticado.idUsuario);
+        console.log("EL valor de usuarioAutenticado es " + this.state.usuarioAutenticado.autenticado + 
+                    "El valor del usuario es " + this.state.usuarioAutenticado.idUsuario);
       })
   }
 
